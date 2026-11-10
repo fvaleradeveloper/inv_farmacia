@@ -1,0 +1,42 @@
+{
+  "name": "FarmaDelivery - Inventario",
+  "short_name": "FarmaDelivery",
+  "description": "Sistema de inventario y reparto de medicamentos",
+  "start_url": "./inventario.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0f4f8",
+  "theme_color": "#0d7377",
+  "lang": "es",
+  "dir": "ltr",
+  "scope": "./",
+  "categories": ["medical", "productivity", "business"],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2944/2944916.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2944/2944916.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Medicamentos",
+      "short_name": "Meds",
+      "url": "./inventario.html#medicamentos",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2944/2944916.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Repartos",
+      "short_name": "Repartos",
+      "url": "./inventario.html#repartos",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2944/2944916.png", "sizes": "192x192" }]
+    }
+  ]
+}

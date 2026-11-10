@@ -1,0 +1,449 @@
+{
+  "medicamentos": [
+    {
+      "id": "m1",
+      "codigo": "MED-001",
+      "nombre": "Paracetamol 500mg",
+      "principio": "Paracetamol",
+      "laboratorio": "Laboratorio XYZ",
+      "presentacion": "Tableta",
+      "lote": "LOT-001",
+      "vencimiento": "2025-12-31",
+      "precioCompra": 2.50,
+      "precioVenta": 5.00,
+      "stock": 150,
+      "stockMin": 20,
+      "receta": "no",
+      "temp": 0,
+      "descripcion": "Analgesico y antitérmico"
+    },
+    {
+      "id": "m2",
+      "codigo": "MED-002",
+      "nombre": "Ibuprofeno 400mg",
+      "principio": "Ibuprofeno",
+      "laboratorio": "Laboratorio ABC",
+      "presentacion": "Tableta",
+      "lote": "LOT-002",
+      "vencimiento": "2026-03-15",
+      "precioCompra": 3.20,
+      "precioVenta": 6.50,
+      "stock": 80,
+      "stockMin": 15,
+      "receta": "no",
+      "temp": 0,
+      "descripcion": "Antiinflamatorio y analgésico"
+    },
+    {
+      "id": "m3",
+      "codigo": "MED-003",
+      "nombre": "Amoxicilina 500mg",
+      "principio": "Amoxicilina",
+      "laboratorio": "Laboratorio MED",
+      "presentacion": "Cápsula",
+      "lote": "LOT-003",
+      "vencimiento": "2025-11-30",
+      "precioCompra": 4.80,
+      "precioVenta": 9.80,
+      "stock": 45,
+      "stockMin": 10,
+      "receta": "si",
+      "temp": 0,
+      "descripcion": "Antibiótico de amplio espectro"
+    },
+    {
+      "id": "m4",
+      "codigo": "MED-004",
+      "nombre": "Omeprazol 20mg",
+      "principio": "Omeprazol",
+      "laboratorio": "Laboratorio SALUD",
+      "presentacion": "Tableta",
+      "lote": "LOT-004",
+      "vencimiento": "2024-10-15",
+      "precioCompra": 1.80,
+      "precioVenta": 4.00,
+      "stock": 60,
+      "stockMin": 10,
+      "receta": "no",
+      "temp": 0,
+      "descripcion": "Inhibidor de bomba de protones"
+    },
+    {
+      "id": "m5",
+      "codigo": "MED-005",
+      "nombre": "Losartan 50mg",
+      "principio": "Losartan potásico",
+      "laboratorio": "CardioPharma",
+      "presentacion": "Tableta",
+      "lote": "LOT-005",
+      "vencimiento": "2027-06-30",
+      "precioCompra": 5.50,
+      "precioVenta": 11.00,
+      "stock": 200,
+      "stockMin": 30,
+      "receta": "si",
+      "temp": 0,
+      "descripcion": "Antihipertensivo"
+    },
+    {
+      "id": "m6",
+      "codigo": "MED-006",
+      "nombre": "Aspirina 100mg",
+      "principio": "Ácido acetilsalicílico",
+      "laboratorio": "Bayer",
+      "presentacion": "Tableta",
+      "lote": "LOT-006",
+      "vencimiento": "2024-08-20",
+      "precioCompra": 0.90,
+      "precioVenta": 2.50,
+      "stock": 5,
+      "stockMin": 15,
+      "receta": "no",
+      "temp": 0,
+      "descripcion": "Antiagregante plaquetario"
+    },
+    {
+      "id": "m7",
+      "codigo": "MED-007",
+      "nombre": "Metformina 850mg",
+      "principio": "Metformina clorhidrato",
+      "laboratorio": "DiabetCare",
+      "presentacion": "Tableta",
+      "lote": "LOT-007",
+      "vencimiento": "2026-12-01",
+      "precioCompra": 2.10,
+      "precioVenta": 4.50,
+      "stock": 3,
+      "stockMin": 10,
+      "receta": "si",
+      "temp": 0,
+      "descripcion": "Antidiabético oral"
+    },
+    {
+      "id": "m8",
+      "codigo": "MED-008",
+      "nombre": "Insulina Glargina 100UI/ml",
+      "principio": "Insulina glargina",
+      "laboratorio": "Sanofi",
+      "presentacion": "Inyectable",
+      "lote": "LOT-008",
+      "vencimiento": "2025-05-20",
+      "precioCompra": 45.00,
+      "precioVenta": 75.00,
+      "stock": 12,
+      "stockMin": 5,
+      "receta": "si",
+      "temp": 4,
+      "descripcion": "Insulina de acción prolongada, requiere refrigeración"
+    },
+    {
+      "id": "m9",
+      "codigo": "MED-009",
+      "nombre": "Loratadina 10mg",
+      "principio": "Loratadina",
+      "laboratorio": "Allegra",
+      "presentacion": "Tableta",
+      "lote": "LOT-009",
+      "vencimiento": "2028-01-10",
+      "precioCompra": 1.20,
+      "precioVenta": 3.00,
+      "stock": 90,
+      "stockMin": 20,
+      "receta": "no",
+      "temp": 0,
+      "descripcion": "Antihistamínico para alergias"
+    },
+    {
+      "id": "m10",
+      "codigo": "MED-010",
+      "nombre": "Salbutamol 100mcg",
+      "principio": "Salbutamol",
+      "laboratorio": "Ventolin",
+      "presentacion": "Inhalador",
+      "lote": "LOT-010",
+      "vencimiento": "2024-06-15",
+      "precioCompra": 8.00,
+      "precioVenta": 15.00,
+      "stock": 25,
+      "stockMin": 8,
+      "receta": "si",
+      "temp": 0,
+      "descripcion": "Broncodilatador de acción rápida"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "c1",
+      "nombre": "Juan Pérez",
+      "telefono": "987654321",
+      "direccion": "Av. Principal 123",
+      "zona": "Lima",
+      "referencia": "Cliente habitual",
+      "notas": ""
+    },
+    {
+      "id": "c2",
+      "nombre": "María García",
+      "telefono": "987612345",
+      "direccion": "Jirón Secundario 456",
+      "zona": "Arequipa",
+      "referencia": "Nuevo cliente",
+      "notas": "Prefiere entregas por la mañana"
+    },
+    {
+      "id": "c3",
+      "nombre": "Carlos Ruiz",
+      "telefono": "998877665",
+      "direccion": "Urb. San Isidro 789",
+      "zona": "Lima",
+      "referencia": "Cliente corporativo",
+      "notas": "Pago mensual, facturar"
+    },
+    {
+      "id": "c4",
+      "nombre": "Lucía Fernández",
+      "telefono": "955566677",
+      "direccion": "Calle Las Flores 321",
+      "zona": "Trujillo",
+      "referencia": "",
+      "notas": "Cliente nuevo, verificar dirección"
+    },
+    {
+      "id": "c5",
+      "nombre": "Roberto Silva",
+      "telefono": "912345678",
+      "direccion": "Av. Brasil 1000",
+      "zona": "Lima",
+      "referencia": "Edificio Central, dpto 405",
+      "notas": "Solicita entrega antes de las 6pm"
+    }
+  ],
+  "entradas": [
+    {
+      "id": "e1",
+      "fecha": "2024-01-15",
+      "proveedor": "Distribuidor Farmacéutico",
+      "medicamentoId": "m1",
+      "medicamentoNombre": "Paracetamol 500mg",
+      "medicamentoCodigo": "MED-001",
+      "cantidad": 100,
+      "costoUnit": 2.50,
+      "total": 250.00,
+      "lote": "LOT-001",
+      "vencimiento": "2025-12-31",
+      "notas": "Compra inicial"
+    },
+    {
+      "id": "e2",
+      "fecha": "2024-02-10",
+      "proveedor": "Distribuidor Farmacéutico",
+      "medicamentoId": "m2",
+      "medicamentoNombre": "Ibuprofeno 400mg",
+      "medicamentoCodigo": "MED-002",
+      "cantidad": 50,
+      "costoUnit": 3.20,
+      "total": 160.00,
+      "lote": "LOT-002",
+      "vencimiento": "2026-03-15",
+      "notas": "Reposición de stock"
+    },
+    {
+      "id": "e3",
+      "fecha": "2024-03-05",
+      "proveedor": "PharmaDistribuciones SAC",
+      "medicamentoId": "m4",
+      "medicamentoNombre": "Omeprazol 20mg",
+      "medicamentoCodigo": "MED-004",
+      "cantidad": 200,
+      "costoUnit": 1.80,
+      "total": 360.00,
+      "lote": "LOT-004",
+      "vencimiento": "2024-10-15",
+      "notas": "Lote próximo a vencer"
+    },
+    {
+      "id": "e4",
+      "fecha": "2024-03-10",
+      "proveedor": "CardioMed Import",
+      "medicamentoId": "m5",
+      "medicamentoNombre": "Losartan 50mg",
+      "medicamentoCodigo": "MED-005",
+      "cantidad": 150,
+      "costoUnit": 5.50,
+      "total": 825.00,
+      "lote": "LOT-005",
+      "vencimiento": "2027-06-30",
+      "notas": "Stock para 6 meses"
+    },
+    {
+      "id": "e5",
+      "fecha": "2024-03-15",
+      "proveedor": "Sanofi Chile",
+      "medicamentoId": "m8",
+      "medicamentoNombre": "Insulina Glargina 100UI/ml",
+      "medicamentoCodigo": "MED-008",
+      "cantidad": 30,
+      "costoUnit": 45.00,
+      "total": 1350.00,
+      "lote": "LOT-008",
+      "vencimiento": "2025-05-20",
+      "notas": "Requiere cadena de frío"
+    }
+  ],
+  "repartos": [
+    {
+      "id": "r1",
+      "fecha": "2024-01-20",
+      "clienteId": "c1",
+      "clienteNombre": "Juan Pérez",
+      "telefonoCliente": "987654321",
+      "direccion": "Av. Principal 123",
+      "zona": "Lima",
+      "conductor": "Carlos",
+      "items": [
+        {
+          "medicamentoId": "m1",
+          "medicamentoCodigo": "MED-001",
+          "medicamentoNombre": "Paracetamol 500mg",
+          "cantidad": 10,
+          "precioUnit": 5.00,
+          "subtotal": 50.00
+        }
+      ],
+      "total": 50.00,
+      "estado": "entregado",
+      "notas": "Entrega exitosa"
+    },
+    {
+      "id": "r2",
+      "fecha": "2024-02-05",
+      "clienteId": "c2",
+      "clienteNombre": "María García",
+      "telefonoCliente": "987612345",
+      "direccion": "Jirón Secundario 456",
+      "zona": "Arequipa",
+      "conductor": "Ana",
+      "items": [
+        {
+          "medicamentoId": "m2",
+          "medicamentoCodigo": "MED-002",
+          "medicamentoNombre": "Ibuprofeno 400mg",
+          "cantidad": 5,
+          "precioUnit": 6.50,
+          "subtotal": 32.50
+        },
+        {
+          "medicamentoId": "m3",
+          "medicamentoCodigo": "MED-003",
+          "medicamentoNombre": "Amoxicilina 500mg",
+          "cantidad": 3,
+          "precioUnit": 9.80,
+          "subtotal": 29.40
+        }
+      ],
+      "total": 61.90,
+      "estado": "entregado",
+      "notas": "Cliente satisfecho"
+    },
+    {
+      "id": "r3",
+      "fecha": "2024-03-10",
+      "clienteId": "c3",
+      "clienteNombre": "Carlos Ruiz",
+      "telefonoCliente": "998877665",
+      "direccion": "Urb. San Isidro 789",
+      "zona": "Lima",
+      "conductor": "Carlos",
+      "items": [
+        {
+          "medicamentoId": "m5",
+          "medicamentoCodigo": "MED-005",
+          "medicamentoNombre": "Losartan 50mg",
+          "cantidad": 30,
+          "precioUnit": 11.00,
+          "subtotal": 330.00
+        }
+      ],
+      "total": 330.00,
+      "estado": "pendiente",
+      "notas": "Programado para mañana por la mañana"
+    },
+    {
+      "id": "r4",
+      "fecha": "2024-03-12",
+      "clienteId": "c4",
+      "clienteNombre": "Lucía Fernández",
+      "telefonoCliente": "955566677",
+      "direccion": "Calle Las Flores 321",
+      "zona": "Trujillo",
+      "conductor": "Luis",
+      "items": [
+        {
+          "medicamentoId": "m9",
+          "medicamentoCodigo": "MED-009",
+          "medicamentoNombre": "Loratadina 10mg",
+          "cantidad": 10,
+          "precioUnit": 3.00,
+          "subtotal": 30.00
+        },
+        {
+          "medicamentoId": "m1",
+          "medicamentoCodigo": "MED-001",
+          "medicamentoNombre": "Paracetamol 500mg",
+          "cantidad": 5,
+          "precioUnit": 5.00,
+          "subtotal": 25.00
+        }
+      ],
+      "total": 55.00,
+      "estado": "por_entregar",
+      "notas": "En camino, salida 14:00"
+    },
+    {
+      "id": "r5",
+      "fecha": "2024-03-14",
+      "clienteId": "c5",
+      "clienteNombre": "Roberto Silva",
+      "telefonoCliente": "912345678",
+      "direccion": "Av. Brasil 1000",
+      "zona": "Lima",
+      "conductor": "Ana",
+      "items": [
+        {
+          "medicamentoId": "m8",
+          "medicamentoCodigo": "MED-008",
+          "medicamentoNombre": "Insulina Glargina 100UI/ml",
+          "cantidad": 2,
+          "precioUnit": 75.00,
+          "subtotal": 150.00
+        }
+      ],
+      "total": 150.00,
+      "estado": "pendiente",
+      "notas": "Cliente solicita entrega antes de las 6pm"
+    },
+    {
+      "id": "r6",
+      "fecha": "2024-03-15",
+      "clienteId": "c1",
+      "clienteNombre": "Juan Pérez",
+      "telefonoCliente": "987654321",
+      "direccion": "Av. Principal 123",
+      "zona": "Lima",
+      "conductor": "Carlos",
+      "items": [
+        {
+          "medicamentoId": "m6",
+          "medicamentoCodigo": "MED-006",
+          "medicamentoNombre": "Aspirina 100mg",
+          "cantidad": 5,
+          "precioUnit": 2.50,
+          "subtotal": 12.50
+        }
+      ],
+      "total": 12.50,
+      "estado": "cancelado",
+      "notas": "Cliente no estaba en el domicilio"
+    }
+  ]
+}
